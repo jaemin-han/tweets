@@ -21,5 +21,4 @@ tweet.get('/hashtag/:hashtag', hashtag, (req, res) => {
   res.json(res.tweets || []);
 });
 
-
 module.exports = tweet;
