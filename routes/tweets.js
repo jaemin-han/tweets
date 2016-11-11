@@ -1,6 +1,6 @@
 const express = require('express');
 const tweet = express.Router();
-const { getTweets, getOneTweet, hashtag} = require('../models/tweets');
+const { getTweets, getOneTweet, hashtag } = require('../models/tweets');
 // const sendJSONresp = (req, res) => res.json(res.rows);
 
 
